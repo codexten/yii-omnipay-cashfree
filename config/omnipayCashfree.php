@@ -1,4 +1,7 @@
 <?php
+
+/* @var $params array */
+
 return [
     'components' => [
         'omnipay' => [
@@ -6,8 +9,9 @@ return [
             'gateways' => [
                 'cashfree' => [
                     'driverName' => 'Cashfree',
-                    'config' => [
-                        ''
+                    'parameters' => [
+                        'appId' => $params['cashfree.appId'],
+                        'secretKey' => $params['cashfree.secretKey'],
                     ],
                 ],
             ],
