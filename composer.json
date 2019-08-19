@@ -19,8 +19,12 @@
     "branch-alias": {
       "dev-master": "2.0.x-dev"
     },
-    "sconfig-plugin": {
-      "omnipay": "config/omnipay.php"
+    "config-plugin": {
+      "params": "config/params.php",
+      "omnipayCashfree": [
+        "$omnipay",
+        "config/omnipayCashfree.php"
+      ]
     }
   }
 }
