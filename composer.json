@@ -7,7 +7,7 @@
   ],
   "type": "library",
   "require": {
-    "codexten/yii-omnipay-cashfree": "~2.0.0",
+    "codexten/yii-omnipay": "~2.0.0",
     "codexten/omnipay-cashfree": "~1.0.0"
   },
   "autoload": {
