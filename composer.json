@@ -1,0 +1,25 @@
+{
+  "name": "codexten/yii-omnipay-cashfree",
+  "description": "yii omnipay cashfree",
+  "keywords": [
+    "hosts",
+    "codexten"
+  ],
+  "type": "library",
+  "require": {
+    "omnipay/common": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "codexten\\yii\\omnipay\\cashfree\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    },
+    "sconfig-plugin": {
+      "omnipay": "config/omnipay.php"
+    }
+  }
+}
